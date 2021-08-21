@@ -1,0 +1,124 @@
+/*Обнуление*/
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Oswald", sans-serif;
+}
+a, a:hover {
+    text-decoration: none;
+}
+
+.container {
+    width: 1170px;
+    margin:  auto;
+}
+/*HEADER*/
+#header {
+    position:absolute;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    background: rgba(0, 91, 193, 0.6);
+}
+.nav-items {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+.nav-item {
+    margin: 0 10px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 19px;
+    color: #FFFFFF;
+}
+
+.logo {
+    margin-left: 50px;
+    padding-top: 20px;
+    margin-bottom: 15px;
+
+
+}
+/*HEADER*/
+
+/*HERO*/
+#hero {
+    background: url("../img/bg.png") no-repeat center/cover;
+    min-height: 100vh;
+}
+.hero--block {
+    padding-top: 200px;
+}
+.hero-title {
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 71px;
+    letter-spacing: 0.01em;
+    width: 635px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.hero-desc {
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 22px;
+    width: 400px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+
+}
+
+.hero-btn {
+    background: transparent;
+    border: 2px solid #FFFFFF;
+    box-sizing: border-box;
+    padding: 10px 20px;
+    font-family: "Open Sans", sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    text-transform: uppercase;
+    line-height: 22px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    color: #FFFFFF;
+}
+.hero-btn:hover {
+    background: rgba(0, 91, 193, 0.6);
+    cursor: pointer;
+}
+.animation__block{
+    width: 444px;
+    height: 720px;
+    background: rgba(0, 91, 193, 0.6);
+    position:absolute;
+}
+/*HERO*/
+
+/*PROJECTS*/
+#projects {
+    padding-top: 70px;
+}
+.pr-slider {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slide-img {
+    width: 540px;
+    height: 400px;
+}
+
+
+
+/*PROJECTS*/
